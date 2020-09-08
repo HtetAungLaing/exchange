@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Money Exchanger</title>
+    <meta name="title" content="Money Exchanger">
+    <meta name="description" content="This is project by Htet Aung Hlaing , guided through the teach of MMS-IT.">
+    <meta property="og:image" content='images/logo.svg'>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="hal.mmsit.website">
+    <meta property="og:title" content="Money Exchanger">
+    <meta property="og:description" content="This is project by Htet Aung Hlaing , guided through the teach of MMS-IT.">
+    <meta property="og:image" content='images/logo.svg'>
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="hal.mmsit.website">
+    <meta property="twitter:title" content="Money Exchanger">
+    <meta property="twitter:description"
+        content="This is project by Htet Aung Hlaing , guided through the teach of MMS-IT.">
+    <meta property="twitter:image" content="images/logo.svg">
+    <title>MMEx Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+</head>
+
+<body>
+    <section class="container">
+        <section class="one">
+            <div class="logo">
+                <img class="logo-img" src="images/logo.svg" alt="">
+                <p class="logo-text">MMEx</p>
+            </div>
+            <div class="output">
+                <p class="result">0.00</p>
+            </div>
+        </section>
+        <div class="line"></div>
+        <section class="second">
+            <form action="" class="form">
+                <div class="input">
+                    <label for="">Input</label>
+                    <input id="input" type="number" autofocus placeholder='0.00' min="1" required>
+                </div>
+                <div class="input-from">
+                    <label for="">From</label>
+                    <select class="from" name="" id="" required>
+                        <option value="" selected>Select Currency</option>
+                    </select>
+                </div>
+                <div class="input-to">
+                    <label for="">To</label>
+                    <select class="to" name="" id="" required></select>
+                </div>
+                <div class='calculate'>
+                    <button class="cal-btn">Calculate</button>
+                </div>
+            </form>
+        </section>
+        <section class="third">
+            <table class="his">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody class="his-list">
+                </tbody>
+            </table>
+        </section>
+    </section>
+</body>
+<!-- <script src="js/data.js"></script> -->
+<script src="js/app.js">
+</script>
+
+</html>
