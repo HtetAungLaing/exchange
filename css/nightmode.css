@@ -3,7 +3,7 @@
     --dark-secondary:#3a3b3c;
 }
 body.dark{
-    background-color:rgba(17, 17, 17, 0.945) !important;
+    background-color:rgba(26, 26, 26, 0.945) !important;
 }
 .dark .logo-text{
    color: var(--dark-primary) !important;
