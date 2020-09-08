@@ -1,10 +1,10 @@
 :root {
-    --primary: rgb(121, 72, 151);
-    --primarry-soft: rgba(121, 72, 151, 0.288);
-    --text: #FCF951FF;
-    --light: #ffffff;
+    --primary: #17a2b8;
+    --primarry-soft: #63c4d396;
+    --text: #f8f9fa;
+    --light: #f8f9fa;
     --dark: #000000;
-    --dark-soft: #1010104f;
+    --dark-soft: #101010b2;
     --br: 5px;
 }
 
@@ -16,7 +16,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: lato, sans-serif;
-    color: var(--primary);
+    color: var(--dark);
     text-transform: uppercase;
 }
 
@@ -120,7 +120,6 @@ form {
 
 .his td,
 .his th {
-    border: 1px solid #ddd;
     padding: 8px;
     border-radius: var(--br);
 }
@@ -145,7 +144,18 @@ form {
     background-color: var(--primary);
     color: var(--text);
 }
-
+.dark-btn{
+    position: absolute;
+    right: 200px;
+    top: 500px;
+    font-size: 35px;
+    outline: none;
+    padding: 5px;
+    border-radius: 50%;
+    animation: ani 1s linear infinite;
+}
+.dark-b{
+}
 @media screen and (max-width: 500px) {
     .container {
         width: 350px;
@@ -192,5 +202,13 @@ form {
 
     .third {
         margin-top: 5px;
+    }
+}
+@keyframes ani{
+    0%{transform: scale(1.1)}
+    50%{
+        transform: scale(0.9)
+    }100%{
+        transform: scale(1.1)
     }
 }

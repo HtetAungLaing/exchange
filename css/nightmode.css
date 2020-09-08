@@ -1,0 +1,29 @@
+:root{
+    --dark-primary:#d1d1d1;
+    --dark-secondary:#3a3b3c;
+}
+body.dark{
+    background-color:rgba(17, 17, 17, 0.945) !important;
+}
+.dark .logo-text{
+   color: var(--dark-primary) !important;
+}
+.dark label{
+    color: var(--dark-primary);
+}
+.dark tr{
+    background:var(--dark-secondary)
+}
+.dark td{
+    color: var(--dark-primary);
+}
+.dark .result{
+    color: var(--dark-primary);
+}
+.dark input,.dark select{
+    color: var(--dark-primary);
+    background-color: var(--dark-secondary);
+}
+.dark .dark-btn{
+    color: var(--dark-primary);
+}

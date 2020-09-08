@@ -82,6 +82,11 @@ fetch('https://api.allorigins.win/raw?url=https://forex.cbm.gov.mm/api/latest')
             }
         })();
 
+        let darkBtn = document.querySelector('.dark-btn');
+        darkBtn.addEventListener('click', () => {
+            document.querySelector('body').classList.toggle('dark');
+        })
+
     })
     .catch(err => {
         console.log(err);
